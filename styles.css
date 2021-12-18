@@ -1,0 +1,28 @@
+/*
+Developer: Chandler Thompson
+Project: The Great Race
+Date: 12/18/2021
+*/
+/* sets the background to a img*/
+body{
+    background-color: cadetblue;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sets the border around the header */
+h1{
+    text-align: center;
+    background-color: aqua;
+    opacity: .80;
+    border-style: solid;
+    border-radius: 50px;
+    margin: 20px 300px 20px 300px;
+    padding: 10px;
+}
+
+/* flips the stop light so its facing the right way */
+.flip{
+    transform: scaleX(-1);
+}
